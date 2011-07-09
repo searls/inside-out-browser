@@ -7,14 +7,14 @@
 
 .source {
   background-color: #fff;
-  width: 100%;
   height: 100%;
   padding: 30px 10px 10px 30px;
   font-family: "Courier New", monospace;
+  z-index: 9998;
 }
 
 .exit {
-  z-index: 9999;
   padding: 5px 0px 0px 5px;
+  z-index: 9999;
 }
 

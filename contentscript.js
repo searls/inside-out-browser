@@ -1,10 +1,10 @@
 (function($) {
-  var $source, $exit, $originals, 
-    doc = document.documentElement;
+  var $source, $exit, $originals, doc;
   
   var init = function() {
+    doc = document.documentElement;
     var sourceHtml = $('<div/>').text(doc.outerHTML).html().replace(/(\t|  )/g,"&nbsp;&nbsp;").split('\n').join('<br/>');
-    $originals = $(doc).children().detach();
+    $originals = $(doc).children().hide();
     $source = $('<div class="absolute source"><div>').html(sourceHtml).appendTo(doc);
   }
   
@@ -16,7 +16,7 @@
     e.preventDefault();
     $source.remove();
     $exit.remove();
-    $originals.appendTo(doc);
+    $originals.attr('style','');
   };
 
   $(function() {
