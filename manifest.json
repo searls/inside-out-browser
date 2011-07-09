@@ -1,6 +1,6 @@
 {
   "name" : "Browse Source",
-  "version" : "0.1",
+  "version" : "0.2",
   "description" : "Shows a page's source before showing the content of the page.",
   "background_page" : "background.html",
   "page_action" :
@@ -15,7 +15,8 @@
         "https://*/*"
       ],
       "js" : ["jquery.min.js","underscore-min.js","contentscript.js"],
-      "run_at" : "document_idle",
+      "css": ["style.css"],
+      "run_at" : "document_start",
       "all_frames" : false
     }
   ],
