@@ -1,6 +1,6 @@
 {
-  "name" : "Browse Source",
-  "version" : "0.2",
+  "name" : "Inside Out Browser",
+  "version" : "0.3",
   "description" : "Shows a page's source before showing the content of the page.",
   "background_page" : "background.html",
   "page_action" :
