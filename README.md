@@ -3,4 +3,4 @@ What if you could browse the web primarily by HTML source, and the rendered page
 ## Install the extension via the [Google Chrome Store here](https://chrome.google.com/webstore/detail/aipjoeecpaglenjcfmaihdjamahabdoj).
 
 
-Credit for the idea goes to [Sarah Gray](Credit for the idea goes to Sarah Gray in this tweet: http://twitter.com/#!/fablednet/status/89507153131474944 )
+Credit for the idea goes to [Sarah Gray](http://twitter.com/#!/fablednet/status/89507153131474944 )
